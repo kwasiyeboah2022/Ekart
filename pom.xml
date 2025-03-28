@@ -6,7 +6,7 @@
     <groupId>com.reljicd</groupId>
     <artifactId>shopping-cart</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <packaging>jar</packaging>
+    <packaging>war</packaging>
 
     <name>shopping-cart</name>
     <description>Demo project for Spring Boot Shopping Cart</description>
@@ -133,8 +133,8 @@
 
                  <plugin>
     <groupId>org.apache.maven.plugins</groupId>
-    <artifactId>maven-jar-plugin</artifactId>
-    <version>3.3.0</version> 
+   <artifactId>maven-war-plugin</artifactId>
+    <version>3.3.2</version> 
 </plugin>
 
                  <plugin>
