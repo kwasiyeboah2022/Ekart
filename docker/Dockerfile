@@ -1,4 +1,4 @@
-FROM openjdk:8u151-jdk-alpine3.7
+FROM openjdk:21-jdk-alpine3.18
 
 EXPOSE 8060
 
